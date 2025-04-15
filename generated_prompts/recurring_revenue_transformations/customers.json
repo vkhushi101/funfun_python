@@ -1,0 +1,18 @@
+[
+    {
+      "customer_id": "cus_001",
+      "company_name": "Acme Corp"
+    },
+    {
+      "customer_id": "cus_002",
+      "company_name": "Globex Inc."
+    },
+    {
+      "customer_id": "cus_003",
+      "company_name": "Initech"
+    },
+    {
+      "customer_id": "cus_004",
+      "company_name": "Umbrella Corp"
+    }
+  ]

@@ -1,0 +1,27 @@
+[
+    {
+      "customer_id": "cus_001",
+      "start_date": "2023-01-15",
+      "status": "active"
+    },
+    {
+      "customer_id": "cus_002",
+      "start_date": "2023-03-01",
+      "status": "canceled"
+    },
+    {
+      "customer_id": "cus_003",
+      "start_date": "2023-02-10",
+      "status": "active"
+    },
+    {
+      "customer_id": "cus_003",
+      "start_date": "2022-12-01",
+      "status": "active"
+    },
+    {
+      "customer_id": "cus_004",
+      "start_date": "2023-01-01",
+      "status": "active"
+    }
+  ]

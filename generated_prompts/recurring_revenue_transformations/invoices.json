@@ -1,0 +1,91 @@
+[
+    {
+      "invoice_id": "inv_001",
+      "customer_id": "cus_001",
+      "currency": "USD",
+      "date": "2024-01-01",
+      "items": [
+        {"type": "recurring", "amount": 500},
+        {"type": "one_time", "amount": 250}
+      ]
+    },
+    {
+      "invoice_id": "inv_002",
+      "customer_id": "cus_001",
+      "currency": "USD",
+      "date": "2024-02-01",
+      "items": [
+        {"type": "recurring", "amount": 500}
+      ]
+    },
+    {
+      "invoice_id": "inv_003",
+      "customer_id": "cus_001",
+      "currency": "USD",
+      "date": "2024-03-01",
+      "items": [
+        {"type": "recurring", "amount": null}
+      ]
+    },
+    {
+      "invoice_id": "inv_004",
+      "customer_id": "cus_002",
+      "currency": "USD",
+      "date": "2023-03-01",
+      "items": [
+        {"type": "recurring", "amount": 1000}
+      ]
+    },
+    {
+      "invoice_id": "inv_005",
+      "customer_id": "cus_003",
+      "currency": "USD",
+      "date": "2024-01-01",
+      "items": [
+        {"type": "recurring", "amount": 400}
+      ]
+    },
+    {
+      "invoice_id": "inv_006",
+      "customer_id": "cus_003",
+      "currency": "USD",
+      "date": "2024-02-01",
+      "items": [
+        {"type": "recurring", "amount": 350}
+      ]
+    },
+    {
+      "invoice_id": "inv_007",
+      "customer_id": "cus_003",
+      "currency": "USD",
+      "date": "2024-03-01",
+      "items": [
+        {"type": "recurring", "amount": 250}
+      ]
+    },
+    {
+      "invoice_id": "inv_008",
+      "customer_id": "cus_004",
+      "currency": "EUR",
+      "date": "2024-01-01",
+      "items": [
+        {"type": "recurring", "amount": 800}
+      ]
+    },
+    {
+      "invoice_id": "inv_009",
+      "customer_id": "cus_004",
+      "currency": "EUR",
+      "date": "2024-02-01",
+      "items": [
+        {"type": "recurring", "amount": 800}
+      ]
+    },
+    {
+      "invoice_id": "inv_010",
+      "customer_id": "cus_004",
+      "currency": "EUR",
+      "date": "2024-03-01",
+      "items": null
+    }
+  ]

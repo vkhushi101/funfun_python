@@ -1,0 +1,5 @@
+customer_id,company_name,subscription_start,subscription_status,monthly_revenue,latest_invoice_date,invoice_count,risk_rating
+cus_001,Acme Corp,2023-01-15,active,500,2024-03-01,3,high
+cus_002,Globex Inc.,2023-03-01,canceled,1000,2023-03-01,1,medium
+cus_003,Initech,2022-12-01,active,1000,2024-03-01,3,undetermined
+cus_004,Umbrella Corp,2023-01-01,active,1600,2024-03-01,2,medium

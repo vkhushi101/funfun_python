@@ -1,0 +1,42 @@
+[
+    {
+        "device_id": 1,
+        "device_name": "Thermo-A1",
+        "device_type": "thermostat",
+        "health_status": "healthy",
+        "timestamp": "2023-04-01T14:20:00Z",
+        "metric_data": {"temperature": "72", "humidity": "45", "pressure": "101325"}
+    },
+    {
+        "device_id": 2,
+        "device_name": "Sensor-B2",
+        "device_type": "sensor",
+        "health_status": "warning",
+        "timestamp": "2023-04-02T15:30:00Z",
+        "metric_data": {"temperature": "75", "humidity": "65", "pressure": "101800"}
+    },
+    {
+        "device_id": 3,
+        "device_name": "Camera-C3",
+        "device_type": "camera",
+        "health_status": "critical",
+        "timestamp": "invalid-date",
+        "metric_data": {"temperature": "68", "humidity": "70", "pressure": "102000"}
+    },
+    {
+        "device_id": 4,
+        "device_name": "Sensor-D4",
+        "device_type": "sensor",
+        "health_status": "unknown",
+        "timestamp": "2023-04-03T16:40:00Z",
+        "metric_data": {"temperature": "78", "humidity": "60", "pressure": "102100"}
+    },
+    {
+        "device_id": 9,
+        "device_name": "Not known",
+        "device_type": "other",
+        "health_status": "warning",
+        "timestamp": "2023-04-03T19:40:00Z",
+        "metric_data": {"temperature": "78", "humidity": "60", "pressure": "102100"}
+    }
+]
