@@ -1,0 +1,5 @@
+id,name,email,age,full_address,is_email_invalid,registration_date,is_adult
+1,Alice,alice@example.com,25,"123 Main St, Springfield, IL, 62701",False,2023-05-14,True
+2,Bob,bob@,0,"456 Oak St, Chicago, IL, 60601",False,2022-08-22,False
+3,Charlie,charlie@example.com,0,,False,1900-01-01,False
+4,Dave,dave@example.com,0,"789 Pine St, Madison, WI, 00000",False,2021-11-05,False

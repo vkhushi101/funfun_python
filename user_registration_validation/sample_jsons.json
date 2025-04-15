@@ -1,0 +1,6 @@
+[
+    {"id": 1, "name": "Alice", "email": "alice@example.com", "age": "25", "registration_date": "2023-05-14", "address": {"street": "123 Main St", "city": "Springfield", "state": "IL", "zipcode": "62701"}},
+    {"id": 2, "name": "Bob", "email": "bob@", "age": "thirty", "registration_date": "2022-08-22", "address": {"street": "456 Oak St", "city": "Chicago", "state": "IL", "zipcode": "60601"}},
+    {"id": 3, "name": "Charlie", "email": "charlie@example.com", "age": null, "registration_date": "invalid-date", "address": null},
+    {"id": 4, "name": "Dave", "email": "dave@example.com", "age": "invalid", "registration_date": "2021-11-05", "address": {"street": "789 Pine St", "city": "Madison", "state": "WI", "zipcode": "invalid-zip"}}
+]
