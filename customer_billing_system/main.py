@@ -21,20 +21,28 @@ class BillingSystem():
     def add_account(self, account_id: str, initial_balance: str):
         print(f"Creating account {account_id} with initial balance {initial_balance}")
         
-        if not self.accounts.get(account_id): 
+        if not self.accounts.get(account_id):
+            if initial_balance < 0: 
+                print(f"Initial balance {initial_balance} is invalid to begin with.") 
+                return
             self.accounts[account_id] = Account(account_id=account_id, final_balance=float(initial_balance))
-        
+            
 
     def record_transaction(self, timestamp: int, account_id: str, amount: float):
         print(f"Recording transaction for {account_id} with amount {amount} at {timestamp}")
         
         self.process_scheduled_payment(timestamp, account_id)
-        if amount == 0: print(f"No valid amount to deposit or withdraw for account {account_id}")
+        if amount == 0: 
+            print(f"No valid amount to deposit or withdraw for account {account_id}")
+            return
             
         txn_type = Type.WITHDRAW if amount < 0 else Type.DEPOSIT
         
         try:
             cur_account = self._get_account_details(account_id)
+            if len(cur_account.transactions) > 0 and cur_account.transactions[-1].timestamp > timestamp: 
+                print(f"Timestamp {timestamp} has already passed. This timestamp is invalid.")
+                return
             
             if txn_type == Type.WITHDRAW:
                 if cur_account.final_balance < abs(amount):
@@ -68,7 +76,7 @@ class BillingSystem():
             print(f"Scheduled transaction for {account_id} with amount {amount} at time {timestamp + delay} with id {new_payment_id}")
         except RuntimeError as e:
             print(f"Failure when scheduling payment at {timestamp+delay} for account {account_id} with amount {amount}, {e}")
-        
+            
         
     def cancel_payment(self, timestamp: int, account_id: str, payment_id: str):
         print(f"Attempting cancelling transaction for {account_id} with payment id {payment_id} for timestamp {timestamp}")

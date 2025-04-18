@@ -1,27 +1,33 @@
 # User Registration Validation
 
-**Prompt:**
+## Prompt:
 Transform JSON dataset into a clean CSV after validating & manipulating the data
 
-**Definitions:**
-*User*
+### Definitions:
+##### User
+```
 - id
 - name
 - email
 - age
 - address
+```
 
-*Address*
+##### Address
+```
 - street
 - city
 - state
 - zipcode
+```
 
-*Registration Info*
+##### Registration Info
+```
 - registration date
+```
 
 
-**Acceptance Criteria**
+### Acceptance Criteria
 - Use Pydantic to define data models for User, Address, RegistrationInfo
 - If age missing/ invalid, set to 0
 - If email missing/ invalid, market the user as email_invalid = True and set email to None. Log the invalid email for future review
