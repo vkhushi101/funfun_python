@@ -1,0 +1,96 @@
+{
+  "accounts": [
+    {
+      "account_id": "acct1",
+      "final_balance": 0,
+      "transactions": [
+        {
+          "type": "deposit",
+          "amount": 1000,
+          "timestamp": 1
+        },
+        {
+          "type": "withdraw",
+          "amount": 300,
+          "timestamp": 3
+        },
+        {
+          "type": "scheduled_payment",
+          "payment_id": "payment1",
+          "amount": 500,
+          "scheduled_at": 3,
+          "executed_at": 5,
+          "status": "executed"
+        },
+        {
+          "type": "scheduled_payment",
+          "payment_id": "payment2",
+          "amount": 700,
+          "scheduled_at": 4,
+          "executed_at": 5,
+          "status": "executed"
+        },
+        {
+          "type": "scheduled_payment",
+          "payment_id": "payment3",
+          "amount": 500,
+          "scheduled_at": 5,
+          "executed_at": 7,
+          "status": "executed"
+        },
+        {
+          "type": "cancel_payment",
+          "payment_id": "payment2",
+          "timestamp": 6,
+          "status": "cancel_failed"
+        }
+      ],
+      "payment_status": {
+        "payment1": {
+          "status": "executed",
+          "scheduled_at": 3,
+          "executed_at": 5
+        },
+        "payment2": {
+          "status": "executed",
+          "scheduled_at": 4,
+          "executed_at": 5
+        },
+        "payment3": {
+          "status": "executed",
+          "scheduled_at": 5,
+          "executed_at": 7
+        }
+      }
+    },
+    {
+      "account_id": "acct2",
+      "final_balance": 0,
+      "transactions": [
+        {
+          "type": "deposit",
+          "amount": 500,
+          "timestamp": 1
+        },
+        {
+          "type": "withdraw",
+          "amount": 600,
+          "timestamp": 7,
+          "status": "failed"
+        }
+      ]
+    }
+  ],
+  "top_spenders": [
+    {
+      "account_id": "acct1",
+      "total_spent": 1700
+    }
+  ],
+  "meta": {
+    "total_payments_executed": 3,
+    "total_payments_failed": 0,
+    "total_failed_withdrawals": 1,
+    "timestamp_last_processed": 8
+  }
+}

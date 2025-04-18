@@ -47,7 +47,7 @@ Transform the raw JSON into a flattened table structure with the following schem
 - Invoices in foreign currencies (convert to USD using a dummy conversion dict)
 - Incomplete months (e.g., customer started mid-month — prorate revenue)
 
-*🧩 Part 2 — Risk Rating Algorithm (Uncovered During Interview)*
+**🧩 Part 2 — Risk Rating Algorithm (Uncovered During Interview)**
 
 Add a risk_rating to each customer, based on:
 - "High" risk: more than 1 missed invoice or revenue drop in last 3 months
@@ -55,7 +55,7 @@ Add a risk_rating to each customer, based on:
 - "Low" risk: steady or increasing monthly revenue
 - You may need to build a revenue_trend list for last 3 months first
 
-🛠 Suggested Tools
+*Suggested Tools*
 ```
 from typing import List, Dict
 from datetime import datetime
