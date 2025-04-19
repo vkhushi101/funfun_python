@@ -1,0 +1,7 @@
+customer_id,date,service_type,units_used
+C123,2024-06-01,email_validation,100
+C123,2024-06-01,business_lookup,20
+C456,2024-06-01,email_validation,50
+C456,2024-06-01,monitoring,10
+C789,2024-06-02,business_lookup,5
+C789,2024-06-02,monitoring,20

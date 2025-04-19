@@ -2,7 +2,7 @@
 
 ## Overview
 
-Middesk processes large volumes of invoices from its partners. Occasionally, discrepancies occur between the **amount billed** and the **actual usage** of services recorded in internal logs. This project is a tool to detect those discrepancies.
+Our platform processes large volumes of invoices from its partners. Occasionally, discrepancies occur between the **amount billed** and the **actual usage** of services recorded in internal logs. This project is a tool to detect those discrepancies.
 
 You are provided with three data files:
 
