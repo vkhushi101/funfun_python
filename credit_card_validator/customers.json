@@ -1,0 +1,17 @@
+[
+  {
+    "customer_id": "cus_1",
+    "last_invoiced": "2024-12-01",
+    "frequency": "monthly"
+  },
+  {
+    "customer_id": "cus_2",
+    "last_invoiced": "2024-12-25",
+    "frequency": "weekly"
+  },
+  {
+    "customer_id": "cus_3",
+    "last_invoiced": "2025-01-01",
+    "frequency": "monthly"
+  }
+]

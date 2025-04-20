@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "amount": 1000,
+    "currency": "USD"
+  },
+  {
+    "id": 2,
+    "amount": 0,
+    "currency": "USD"
+  },
+  {
+    "id": 3,
+    "amount": -500,
+    "currency": "EUR"
+  },
+  {
+    "id": 4,
+    "amount": 200,
+    "currency": "GBP"
+  },
+  {
+    "id": 5,
+    "amount": 750,
+    "currency": "AUD"
+  }
+]

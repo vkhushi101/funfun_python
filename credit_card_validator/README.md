@@ -56,6 +56,11 @@ Write a function that returns the total revenue in cents across all transactions
   {"id": 2, "amount": 500, "currency": "USD"},
   {"id": 3, "amount": 1500, "currency": "EUR"}
 ]
+
+# conversion rates
+[
+  {"USD": 1, "EUR": 0.93, "AUD": 1.52}
+]
 ```
 
 ### Example Output:
